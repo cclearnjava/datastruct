@@ -20,11 +20,7 @@ public class BigFileTopN {
      * @param n  求排名前N的关键字
      * @return
      */
-    public KeyBusi[] topN(String file,int n){
-        File cuFile = new File(file);
 
-       // PartitionBusi[] partis = PartitionFile.INSTANCE.getPartition()
-    }
 
 
 }
