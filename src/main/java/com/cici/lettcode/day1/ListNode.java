@@ -2,7 +2,7 @@ package com.cici.lettcode.day1;
 
 public class ListNode {
 
-    private int value;
+    int value;
     ListNode next;
 
     public ListNode() {
