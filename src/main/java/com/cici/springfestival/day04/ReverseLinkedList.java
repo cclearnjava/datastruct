@@ -1,6 +1,8 @@
 package com.cici.springfestival.day04;
 
 
+import com.cici.lettcode.day1.ListNode;
+
 /**
  * lettcode 206 链表的翻转
  */
