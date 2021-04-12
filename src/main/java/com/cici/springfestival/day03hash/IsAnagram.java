@@ -1,4 +1,4 @@
-package com.cici.springfestival.day03;
+package com.cici.springfestival.day03hash;
 
 /**
  * lettcode 242 ：有效的字母异味词
@@ -12,8 +12,10 @@ public class IsAnagram {
 
         int[] alpha = new int[26];
         for (int i = 0; i < s.length(); i++) {
-            alpha[s.charAt(i) - 'a']++;
-            alpha[t.charAt(i) - 'a']--;
+            char s1 = s.charAt(i);
+            char t1 = t.charAt(i);
+            alpha[s1 - 'a']++;
+            alpha[t1 - 'a']--;
         }
         for (int i = 0; i < 26; i++) {
             if (alpha[i] != 0) {
@@ -31,6 +33,6 @@ public class IsAnagram {
         System.out.println(b - a);*/
         String s ="anagram";
         String t = "nagaram";
-        isAnagram(s,t);
+        System.out.println(isAnagram(s,t));
     }
 }
